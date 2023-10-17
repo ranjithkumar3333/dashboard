@@ -1,0 +1,15 @@
+.chart-container {
+    width: 95%; 
+    height: 250px; 
+    border-radius: 10px;
+    background-color: white;
+  }
+  
+  #text {
+      font-weight: bolder;
+    }
+  @media (max-width: 767px) {
+    .chart-container{
+      width: 100%;
+    }
+  }

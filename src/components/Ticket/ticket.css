@@ -1,0 +1,82 @@
+.ticket {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .ticket-image {
+    max-width: 50px;
+    max-height: 50px;
+    margin-right: 10px;
+  }
+  
+  .ticket-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .ticket-title {
+    color: #b0afaf;
+  }
+  
+  .ticket-value {
+    color: #100f0f !important;
+    font-weight: bolder !important;
+  }
+  
+  .ticket-percent {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #747474;
+  }
+  
+  .ticket {
+    display: flex;
+    align-items: center;
+    width: 210px;
+    height: 120px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    padding-left: 20px;
+  }
+  
+  .image-color-1 {
+    background-color: #cbf8cb;
+    border-radius: 30px;
+    padding: 10px;
+  }
+  
+  .image-color-2 {
+    background-color: #e4a9ec;
+    border-radius: 30px;
+    padding: 10px;
+  }
+  
+  .image-color-3 {
+    background-color: #ade6f1;
+    border-radius: 15px;
+    padding: 10px;
+  }
+  
+  .image-color-4 {
+    background-color: #f7a6b8;
+    border-radius: 30px;
+    padding: 10px;
+  }
+  
+  @media (max-width: 767px) {
+    .ticket {
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .ticket-image {
+      max-width: 75px;
+      max-height: 65px;
+      margin-right: 45px;
+    }
+  }

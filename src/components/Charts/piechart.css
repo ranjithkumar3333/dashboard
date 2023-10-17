@@ -1,0 +1,15 @@
+.donut-chart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+   }
+   
+   @media (max-width:767px) {
+     .donut-chart {
+       width: 100%;
+       height: 150px;
+       margin-top: 20px;
+     }
+   }
